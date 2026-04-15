@@ -24,20 +24,10 @@ This project implements a simple CI pipeline:
 
 ## 📂 Project Structure
 
-```text
-java-maven-ci-cd/
-├── pom.xml
-├── src/
-│   └── main/
-│       └── java/
-│           └── com/
-│               └── example/
-│                   └── HelloWorld.java
-├── .github/
-│   └── workflows/
-│       └── maven-build.yml
-└── README.md
-
+- `pom.xml` → Maven configuration  
+- `src/` → Source code  
+- `.github/workflows/` → CI/CD pipeline  
+- `README.md` → Project documentation  
 ---
 
 ## ⚙️ How It Works
